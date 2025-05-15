@@ -1,0 +1,44 @@
+.about__content {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about__heading {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.about__name {
+  color: var(--color-highlight);
+}
+
+.about__role {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--clr-fg);
+}
+
+.about__description p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: var(--clr-fg);
+}
+
+.about__description strong {
+  color: var(--color-highlight);
+  font-weight: 600;
+}
+
+.about__contact {
+  display: flex;
+  justify-content: center;  /* ✅ center horizontally */
+  align-items: center;
+  gap: 1rem;                 /* space between button and icons */
+  margin-top: 2rem;
+  text-align: center;
+}
+
