@@ -1,5 +1,5 @@
 const header = {
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
+  homepage: 'https://devdicode.github.io/me',
   title: "SDP"
 }
 
