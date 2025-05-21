@@ -44,11 +44,12 @@ const VisitorStats = () => {
   }, [])
 
   return (
-    <div className="visitor-stats-container">
-      👁 <span className="visitor-count-number">
-        <CountUp end={visitorCount} duration={1} />
+      <div className="visitor-stats-container">
+        👁 <span className="visitor-count-number">
+        <CountUp end={visitorCount} duration={1}/>
       </span>
-    </div>
+        <span style={{display: 'none'}}>{animatedCount}</span>
+      </div>
   )
 }
 
