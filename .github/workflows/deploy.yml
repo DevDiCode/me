@@ -24,6 +24,10 @@ jobs:
 
       - name: Install Dependencies
         run: yarn install
+        yarn:
+
+      - name: Export WebSocket URL
+        run: echo "REACT_APP_WS_URL=${{ secrets.REACT_APP_WS_URL }}" >> .env
 
       - name: Build App
         run: yarn build
