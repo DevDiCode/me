@@ -7,6 +7,7 @@ import Skills from './components/Skills/Skills'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import VisitorStats from './components/VisitorStats/VisitorStats'
 import './App.css'
 
 const App = () => {
@@ -20,8 +21,10 @@ const App = () => {
         <About />
         <Experience />
         <Skills />
+         <VisitorStats />
         <Contact />
       </main>
+
 
       <ScrollToTop />
       <Footer />
